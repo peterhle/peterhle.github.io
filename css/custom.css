@@ -92,6 +92,9 @@ footer {
   padding: 150px 0 30px 0;
 }
 
+.navbar-inverse .navbar-nav > .active > a {
+  color: #e74c3c;
+}
 
 /* Responsive Styling */
 
