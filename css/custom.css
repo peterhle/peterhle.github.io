@@ -90,10 +90,38 @@ a:link {
 footer {
   background-color: #e74c3c;
   padding: 150px 0 30px 0;
+  position: relative;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
   color: #e74c3c;
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.back-to-top a {
+  color: #333;
+}
+
+.modal-content {
+  position: relative;
+  height: 100px; //TODO for now
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 28px;
+  width: 40px;
+  opcacity: 1;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
 }
 
 /* Responsive Styling */
